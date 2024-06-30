@@ -1,0 +1,30 @@
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(js|css)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=31536000"
+          }
+        ]
+      }
+    ],
+    "env": {
+      "REACT_APP_API_DOMAIN": "http://adinathbagcentre-backend-env.eba-uefsrfpq.eu-north-1.elasticbeanstalk.com"
+    }
+  }
+}

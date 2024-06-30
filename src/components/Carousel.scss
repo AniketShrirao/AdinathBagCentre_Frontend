@@ -1,0 +1,10 @@
+.carousel-container .carousel .slide img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .carousel-container .carousel .slide img {
+    max-height: 400px;
+  }
+}
