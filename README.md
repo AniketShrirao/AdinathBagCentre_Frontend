@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Adinath Bag Centre
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was deployed at [adinath bag centre](https://adinath-bag-centre.web.app/).
 
 ## Available Scripts
 
